@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
@@ -26,23 +26,26 @@
         <p class="text" id="welcome-text">
           Welcome to your basic practice website! Enjoy your stay!
         </p>
-        <p class="text">
+        <p class="text ps_and_lists">
           This is a text element. It includes an
           <a href="/">internal link</a>.
         </p>
-        <p class="text">
+        <p class="text ps_and_lists">
           This is another text element. It includes an
-          <a href="https://developer.mozilla.org/de/" target="_blank"
+          <a
+            href="https://developer.mozilla.org/de/"
+            class="link_external"
+            target="_blank"
             >external link</a
           >.
         </p>
         <p class="text text-note">This is a small note.</p>
 
-        <ul class="list">
+        <ul class="ps_and_lists">
           <li>This is a list item</li>
           <li>
             This is a list item
-            <ul class="list">
+            <ul class="ps_and_lists">
               <li>This is a nested list item</li>
               <li>This is a nested list item</li>
               <li>This is a nested list item</li>
@@ -51,7 +54,7 @@
           <li>This is a list item</li>
         </ul>
 
-        <p class="text">
+        <p class="ps_and_lists">
           This is the last text element in the main content.There is also an
           <a href="/">internal link</a>.
         </p>
@@ -60,8 +63,9 @@
       </section>
     </main>
     <footer>
-      <p class="text">
-        This is a text element in the footer with a <a href="/">link</a>.
+      <p class="footer_p">
+        This is a text element in the footer with a
+        <a href="/" class="footer_link">link</a>.
       </p>
     </footer>
   </body>
